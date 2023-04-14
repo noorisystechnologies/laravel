@@ -1,0 +1,20 @@
+{
+    "name": "noorisys/paypal-subscription",
+    "description": "Laravel Paypal Subscription using srmklive/paypal",
+    "autoload": {
+        "psr-4": {
+            "Noorisys\\PaypalSubscription\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javeriya",
+            "email": "javeriya.noorisys@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "srmklive/paypal": "^3.0"
+    }
+}

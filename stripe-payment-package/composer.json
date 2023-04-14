@@ -1,0 +1,20 @@
+{
+    "name": "noorisys/stripe-payment",
+    "description": "Laravel Stripe Payment Integration using stripe/stripe-php",
+    "autoload": {
+        "psr-4": {
+            "Noorisys\\StripePayment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javeriya",
+            "email": "javeriya.noorisys@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "stripe/stripe-php": "^10.11"
+    }
+}

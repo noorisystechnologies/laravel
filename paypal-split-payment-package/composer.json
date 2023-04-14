@@ -1,0 +1,19 @@
+{
+    "name": "noorisys/paypal-split-payment",
+    "description": "Laravel PayPal Split Payment Integration",
+    "autoload": {
+        "psr-4": {
+            "Noorisys\\PaypalSplitPayment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javeriya",
+            "email": "javeriya.noorisys@gmail.com"
+        }
+    ],
+    "require": {
+        "barryvdh/laravel-dompdf": "^2.0",
+        "srmklive/paypal": "~3.0"
+    }
+}
