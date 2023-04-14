@@ -1,0 +1,12 @@
+{
+    "name": "flight/aerodatabox",
+    "description": "This is flight api package",
+    "autoload": {
+        "psr-4": {
+            "Flight\\Aerodatabox\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
