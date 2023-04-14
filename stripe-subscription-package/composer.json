@@ -1,0 +1,20 @@
+{
+    "name": "noorisys/stripe-subscription",
+    "description": "Laravel Stripe Subscription using stripe/stripe-php",
+    "autoload": {
+        "psr-4": {
+            "Noorisys\\StripeSubscription\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javeriya",
+            "email": "javeriya.noorisys@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "stripe/stripe-php": "^10.10"
+    }
+}
