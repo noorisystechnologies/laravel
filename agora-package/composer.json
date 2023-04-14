@@ -1,0 +1,23 @@
+{
+    "name": "noorisys/agora",
+    "description": "Laravel Agora Token Generation using willywes agora sdk",
+    "autoload": {
+        "psr-4": {
+            "Noorisys\\Agora\\": "src/"
+        },
+        "files": [
+            "src/Helpers/HelperFunctions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Javeriya",
+            "email": "javeriya.noorisys@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "guzzlehttp/guzzle": "^7.2",
+        "willywes/agora-sdk-php": "^0.1.3"
+    }
+}
