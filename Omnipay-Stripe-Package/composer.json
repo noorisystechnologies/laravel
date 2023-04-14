@@ -1,0 +1,13 @@
+{
+    "name": "aaisha/stripe",
+    "description": "This is a OMnipay Stripe Package",
+    "autoload": {
+        "psr-4": {
+            "Aaisha\\Stripe\\": "src/"
+        }
+    },
+    "require": {
+        "league/omnipay": "^3.2",
+        "omnipay/stripe": "^3.2"
+    }
+}
